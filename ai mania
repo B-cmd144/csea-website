@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSEA Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("D:\logo csea.jpg");
+
+  
+  /* Full height */
+  height: 80%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+<style>
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+    }
+    
+    .title {
+      color: grey;
+      font-size: 18px;
+    }
+    
+    button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+    
+    a {
+      text-decoration: none;
+      font-size: 22px;
+      color: black;
+    }
+    
+    button:hover, a:hover {
+      opacity: 0.7;
+    }
+    </style>
+    <style>
+        table {
+          border-collapse: collapse;
+          border-spacing: 0;
+          width: 100%;
+          border: 1px solid #ddd;
+        }
+        
+        th, td {
+          text-align: left;
+          padding: 16px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #f2f2f2;
+        }
+        </style>
+        <style>
+            img {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            </style>
+            <style>
+                table {
+                  border-spacing: 0;
+                  width: 100%;
+                  border: 1px solid #ddd;
+                }
+                
+                th, td {
+                  text-align: left;
+                  padding: 16px;
+                }
+                
+                tr:nth-child(even) {
+                  background-color: #f2f2f2
+                }
+                </style>
+</head>
+<body>
+    <header>
+        <h1>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#announcements">Announcements</a></li>
+                <li><a href="#winners">Winners Announcement</a></li>
+                <li><a href="#scoreboard">Scoreboard</a></li>
+                <li><a href="#gallery">Photo Gallery</a></li>
+                <li><a href="#office-bearers">Office Bearers</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="bg-image"></div>
+
+<div class="bg-text">
+  <h2 style="font-size: 40px;">THIAGARAJAR COLLEGE OF ENGINEERING</h2>
+  <h1 style="font-size:60px" >COMPUTER SCIENCE AND ENGINEERING ASSOCIATION</h1>
+</div>
+    <section id="home">
+        <h2>Welcome to CSEA</h2>
+        <p>Your one-stop destination for all CSEA events and updates.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>CSEA is dedicated to promoting collaboration and learning among students...</p>
+    </section>
+
+    <section id="announcements">
+        <h2>Announcements</h2>
+        <ul>
+            
+<table id="myTable">
+    <tr>
+      <th>EVENT NAME </th>
+      <th>DATE</th>
+    <tr>
+      <td>XXXXXXX</td>
+      <td>XXXXXXX</td>
+    </tr>
+    <tr>
+      <td>XXXXXXX</td>
+      <td>XXXXXXX</td>
+    </tr>
+    <tr>
+      <td>XXXXXXX</td>
+      <td>XXXXXXX</td>
+    </tr>
+    
+  </table>
+        </ul>
+    </section>
+
+    <section id="winners">
+        <h2>Winners Announcement</h2>
+        <p>Congratulations to our winners!</p>
+        <ul>
+            <li>Event 1: Winner Name</li>
+            <li>Event 2: Winner Name</li>
+        </ul>
+    </section>
+
+    <section id="scoreboard">
+        <h2>SCOREBOARD </h2>
+<p>It is an offical Announcement of the winners of the xxxxx event:</p>
+
+<table>
+  <tr>
+    <th>POSITION BACKED</th>
+    <th>TEAM NAME</th>
+    <th>YEAR OF STUDYING</th>
+  </tr>
+  <tr>
+    <td>First </td>
+    <td>XXXXXXX</td>
+    <td>III</td>
+  </tr>
+  <tr>
+    <td>Second</td>
+    <td>XXXXXXX</td>
+    <td>II</td>
+  </tr>
+  <tr>
+    <td>Third</td>
+    <td>XXXXXXX</td>
+    <td>II</td>
+  </tr>
+</table>
+    </section>
+
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Event 1">
+            <img src="image2.jpg" alt="Event 2">
+            <img src="image3.jpg" alt="Event 3">
+        </div>
+    </section>
+
+    <section id="office-bearers">
+        <h2>Office Bearers</h2>
+        <ul>
+            <h2 style="text-align:center">User Profile Card</h2>
+
+<div class="card">
+  <img src="D:\img_avatar.png" alt="xxxxxxx" style="width:100%">
+  <h1>xxxxxxx</h1>
+  <p class="title">PRESIDENT </p>
+  <p>COMPUTER SCIENCE AND ENGINEERING-III year</p>
+  <p>For more details mail: xxxxxxx@student.tce.edu </p>
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <p><button>Phone: 9876543210</button></p>
+</div>
+<div class="card">
+    <img src="D:\img_avatar.png" alt="xxxxxxx" style="width:100%">
+    <h1>xxxxxxx</h1>
+    <p class="title"> vice PRESIDENT </p>
+    <p>COMPUTER SCIENCE AND ENGINEERING-II year</p>
+    <p>For more details mail: xxxxxxx@student.tce.edu </p>
+    <div style="margin: 24px 0;">
+      <a href="#"><i class="fa fa-dribbble"></i></a> 
+      <a href="#"><i class="fa fa-twitter"></i></a>  
+      <a href="#"><i class="fa fa-linkedin"></i></a>  
+      <a href="#"><i class="fa fa-facebook"></i></a> 
+    </div>
+    <p><button>Phone: 9876543210</button></p>
+  </div>
+  <div class="card">
+    <img src="D:\img_avatar.png" alt="xxxxxxx" style="width:100%">
+    <h1>xxxxxxx</h1>
+    <p class="title">SECRATARY </p>
+    <p>COMPUTER SCIENCE AND ENGINEERING-III year</p>
+    <p>For more details mail: xxxxxxx@student.tce.edu </p>
+    <div style="margin: 24px 0;">
+      <a href="#"><i class="fa fa-dribbble"></i></a> 
+      <a href="#"><i class="fa fa-twitter"></i></a>  
+      <a href="#"><i class="fa fa-linkedin"></i></a>  
+      <a href="#"><i class="fa fa-facebook"></i></a> 
+    </div>
+    <p><button>Phone: 9876543210</button></p>
+  </div>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CSEA. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
